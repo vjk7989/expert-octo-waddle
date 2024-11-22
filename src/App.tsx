@@ -53,7 +53,7 @@ function App() {
   const uptime = formatDistanceToNow(startTime, { addSuffix: false });
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 to-black">
       <nav className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center space-x-3">
